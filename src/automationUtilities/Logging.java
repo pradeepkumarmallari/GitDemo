@@ -7,10 +7,10 @@ public class Logging {
 	public static Logger log = Logger.getLogger(Log.class.getName());
 	
 	//Use this method for console logging before start of test case
-	public static void startTestCase(String testCase) {
+	public static void startTestCase(String TestCase) {
 		 log.info("****************************************************************************************");
 		 log.info("****************************************************************************************");
-		 log.info("$$$$$$$$$$$$$$$$$$$$$                 "+testCase+ "       $$$$$$$$$$$$$$$$$$$$$$$$$");
+		 log.info("$$$$$$$$$$$$$$$$$$$$$                 "+TestCase+ "       $$$$$$$$$$$$$$$$$$$$$$$$$");
 		 log.info("****************************************************************************************");
 		 log.info("****************************************************************************************");
 	}
