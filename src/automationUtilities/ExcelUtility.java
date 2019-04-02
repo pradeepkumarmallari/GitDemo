@@ -42,6 +42,11 @@ public class ExcelUtility {
 		return excelSheet.getRow(row).getCell(col).getStringCellValue();
 	}
 	
+public static String cellData(int row, int col,XSSFSheet excelSheet) {
+		
+		return excelSheet.getRow(row).getCell(col).getStringCellValue();
+	}
+	
 	public static void setCellData(int row, int col,String data,XSSFSheet excelSheet) {
 		try {
 			if(ExcelUtility.getCellData(row, col, excelSheet)=="") {
